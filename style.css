@@ -50,7 +50,7 @@
     @media (max-width: 768px) {
       /* Adjust styling for smaller screens */
       i {
-        margin-top: -0px; /* Example adjustment, modify as needed */
+        margin-top: -20px; /* Example adjustment, modify as needed */
       }
     }
     i{
