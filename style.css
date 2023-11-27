@@ -34,7 +34,7 @@
 
     .img {
       width: 100%;
-    
+      height: 150px;
     }
 
     h2 {
@@ -52,7 +52,7 @@
       i {
         margin-top: -50px; /* Example adjustment, modify as needed */
       }
-    }
+      
     i{
         font-weight: bold;
         font-size: 2rem;
