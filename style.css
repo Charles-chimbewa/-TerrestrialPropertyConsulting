@@ -9,50 +9,23 @@
         color: #f2f2f2;
     }
     center{
+       top:30%;
        left:30%;
         position: absolute;
         font-size: 100px;
         opacity:0.9;
         border: 1px solid rgb(97, 93, 93);
         height: 150px;
-        color: #050505;
+        /* color: #0cc613; */
         font-weight :800px;
         display: flex;
         align-items: center;
         border-radius: 0px 50px 15px 50px;
         transition: 0.3s ease-in;
         width: 40%;
-       
+        box-shadow: 15px 20px;
         
     }
-    .img {
-      width: 100%;
-      height: 350px;
-    }
-
-    h2 {
-      text-align: center;
-      margin-top: 0;
-    }
-
-    i {
-      display: block; /* Make the logo a block element to control its margin */
-      margin-top: 0; /* Adjust margin as needed */
-    }
-
-    @media (max-width: 768px) {
-      /* Adjust styling for smaller screens */
-      i {
-        margin-top: -50px; /* Example adjustment, modify as needed */
-      }
-    .img {
-      width: 100%;
-      height: 350px;
-    }
-       center{
-           margin-top:-70%;
-       } 
-      
     i{
         font-weight: bold;
         font-size: 2rem;
@@ -70,15 +43,13 @@
     .navbar {
     
     /* margin-top: 60px; */
-   
-    
     }
     center{
         height: 150px;
-        margin-left:-20%;
         width:fit-content;
+        margin-left:50%;
+        margin-right: 10%;
     }
-    
     }
     
     @media screen and (max-width: 480px) {
@@ -89,7 +60,7 @@
     
     }
     center{
-      margin-left: -30%;
+      margin-left:32%;
     }
     
     }
@@ -122,7 +93,8 @@
     
     }
     center{
-      margin-left:-30%;
+      left:-30%;
+      /* color: red; */
     }
     
     }
@@ -386,3 +358,4 @@
       width: 100%; /* Full width on small screens */
     }
   }
+  
